@@ -1,0 +1,48 @@
+@font-face {
+    font-family: iranSans;
+    src: url(./icons/FontsFree-Net-ir_sans.ttf);
+  }
+
+.body{
+    width: 100%;
+    font: 'iranSans';
+}
+
+.top {
+    width:100% !important;
+    background-color: #45A132;
+    height: 20px;
+    display: block;
+    margin-top: 0px;
+    padding-top: 0px;
+  
+}
+
+
+
+
+ul.topnav {
+    list-style-type: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  ul.topnav li {float: right;}
+  
+  ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding:  30px;
+    text-decoration: none;
+  }
+  
+  
+  
+  ul.topnav li.right {float: left;
+    padding: 20px;}
+  
