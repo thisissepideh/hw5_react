@@ -1,48 +1,186 @@
+@import url(//db.onlinewebfonts.com/c/0b0a8c345731751b990403a2cf40fbec?family=IRAN+Sans);
+@import url(//db.onlinewebfonts.com/c/766132c828a90cbecf6f7f4027d12725?family=IRAN+Sans);
 @font-face {
-    font-family: iranSans;
-    src: url(./icons/FontsFree-Net-ir_sans.ttf);
-  }
-
-.body{
-    width: 100%;
-    font: 'iranSans';
+  font-family: "IRAN Sans";
+  src: url("//db.onlinewebfonts.com/t/0b0a8c345731751b990403a2cf40fbec.eot");
+  src: url("//db.onlinewebfonts.com/t/0b0a8c345731751b990403a2cf40fbec.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0b0a8c345731751b990403a2cf40fbec.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/0b0a8c345731751b990403a2cf40fbec.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/0b0a8c345731751b990403a2cf40fbec.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/0b0a8c345731751b990403a2cf40fbec.svg#IRAN Sans")
+      format("svg");
+}
+@font-face {
+  font-family: "IRAN Sans Bold";
+  src: url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.eot");
+  src: url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/766132c828a90cbecf6f7f4027d12725.svg#IRAN Sans")
+      format("svg");
 }
 
-.top {
-    width:100% !important;
-    background-color: #45A132;
-    height: 20px;
-    display: block;
-    margin-top: 0px;
-    padding-top: 0px;
-  
+body {
+  width: 100%;
+  font-family: "IRAN Sans";
 }
 
+#top {
+  overflow: hidden;
+  background-color: #fff;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 33%);
+ 
+}
 
-
+#green-top {
+  width: 100% !important;
+  background-color: #45a132;
+  height: 20px;
+  display: block;
+  margin-top: 0px;
+  padding-top: 0px;
+}
 
 ul.topnav {
-    list-style-type: none;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 0px;
-    padding: 0;
-    overflow: hidden;
-    
-  }
-  
-  ul.topnav li {float: right;}
-  
-  ul.topnav li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding:  30px;
-    text-decoration: none;
-  }
-  
-  
-  
-  ul.topnav li.right {float: left;
-    padding: 20px;}
-  
+  list-style-type: none;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-right: 150px;
+  margin-top: 0px;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: gray;
+  border-width: 2px;
+  /* Set the navbar to fixed position */
+}
+
+ul.topnav li {
+  float: right;
+  margin-top: 10px;
+}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+ul.topnav li.left {
+  float: left;
+  padding-left: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 100px;
+  background-color: #45a132;
+  box-sizing: content-box;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 30%);
+  border-radius: 25px;
+  width: 120px;
+  color: #fff;
+}
+
+#yellow-bar {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.y-icons {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #ffca1d;
+  text-align: center;
+  vertical-align: middle;
+
+  margin: 50px;
+  align-items: center;
+}
+
+.y-icons img {
+  height: 60px !important;
+  width: 60px !important;
+  margin-top: 40px;
+}
+#middle {
+  align-items: center;
+  text-align: center;
+  color: #595959;
+  font-size: 20px;
+  margin-bottom: 80px;
+  margin-top: 150px;
+}
+#bottom {
+  background-color: #f2f2f2;
+  padding: 60px;
+  align-items: center;
+  text-align: center;
+}
+
+#green-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #45a132;
+}
+#gray-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #595959;
+  font-family: "IRAN Sans Bold" !important;
+}
+
+.bottom-box {
+  box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 33%);
+  border-radius: 0.9rem;
+}
+.icons {
+  text-align: center;
+  direction: rtl;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.green-box {
+  border-radius: 0.9rem;
+  box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 33%);
+  margin: 60px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  color: #286e19;
+}
+.img-in-box {
+  margin-top: 40px;
+}
+
+#green-border-bottom {
+  border-bottom: 12px solid rgb(69, 161, 50);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-bottom-left-radius: 0.9rem;
+  border-bottom-right-radius: 0.9rem;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
